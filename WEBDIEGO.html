@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>HOBBIES</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+  background: #cfe8ff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: #8abfff;
+  padding: 20px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2a2a2a;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  background: #4a7ccf;
+  margin-bottom: 20px;
+}
+
+nav ul li a {
+  background: #5f91e9;
+}
+
+nav ul li a:hover {
+  background: #3c6fbe;
+}
+
+.contenedor {
+  margin: 20px auto;
+  width: 90%;
+}
+
+.col1 {
+  background: #d7eaff;
+  border: 2px solid #7aaeff;
+}
+
+.fila-abajo {
+  margin-top: 20px;
+}
+
+.col {
+  background: #e3f0ff;
+  border: 2px solid #7aaeff;
+}
+
+footer {
+  background: #4a7ccf;
+  padding: 20px;
+  color: white;
+  margin-top: 40px;
+}
+
+img {
+  border: 4px solid #7aaeff;
+  margin-bottom: 20px;
+}
+
+  h1 {
+    text-align: center;
+  }
+  p { text-align: center;}
+
+  nav {
+    background-color: #333;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  justify-content: center;
+}
+  
+
+  nav li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav li a:hover {
+    background-color: #555;
+  }
+
+  .contenedor {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .col1 {
+    width: 100%;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .fila-abajo {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .col {
+    flex: 1;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 700px) {
+    .fila-abajo {
+      flex-direction: column;
+    }
+ 
+
+  }
+  </style>
+</head>
+<body>
+<h1> HOBBIES </h1>
+<p> Esta es mi primera página web. Me llamo Diego Corobo y estudio 2do de Bachillerato en el IES Miguel De Cervantes </p> 
+<img src="diego2" alt="Foto Diego y Diego" style="width:1000px; height: 200px; display: block; margin: 0 auto;"/>
+
+<nav>
+  <ul>
+    <li><a href="WEBDIEGO.html">Inicio</a></li>
+    <li><a href="sobremi.html">Sobre mi</a></li>
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLAyk5s1GzDz5VygKJtgwWvKMNkJ9L6pIEwkDrheMFQ0naCA/viewform?usp=dialog">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="contenedor">
+  <div class="col1">
+    <h2>HOBBIES</h2>
+    <ul> 
+      <li> Me gusta hacer música en mi tiempo libre, toco la guitarra eléctrica</li>
+      <li> Me gusta jugar a videojuegos, sobre todo de acciónl</li>
+      <li> Me gusta salir con mis amigos los fines de semana</li>
+      <li> Cuando tengo hueco entre semanas, voy al gimnasio</li>
+    </ul>
+  </div>
+
+  <div class="fila-abajo">
+    <div class="col">
+      <h2>SITIOS QUE ME GUSTARIA VISITAR</h2>
+      <p>Aqui dejo un enlace de sitios que me gustaría visitar</p>
+      <ul>
+        <li><a href="https://www.japan.travel/en/">Japón</a></li>
+        <li><a href="https://www.iceland.is/">Islandia</a></li>
+        <li><a href="https://www.newzealand.com/int/">Nueva Zelanda</a></li>
+        <img src="https://viajesislandia.com/images/Islandia-px/auroras-boreales-snaefellsnes-islandia.jpg" alt="Islandia" style="width:300px; display: block; margin: 100 auto;"/>
+    </div>
+
+    <div class="col">
+      <h2>Cine</h2>
+      <p>Me gustan mucho tanto las series como las películas. Aquí dejo un top de series que más me gustan:</p>
+      <ul>
+        <li>Breaking Bad</li>
+        <li>Stranger Things</li>
+        <li>The end of the f*cking world</li>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTJiMzgwZTktYzZhZC00YzhhLWEzZDUtMGM2NTE4MzQ4NGFmXkEyXkFqcGdeQWpybA@@._V1_QL75_UX500_CR0,0,500,281_.jpg" alt="Breaking Bad" style="width:300px; display: block; margin: 100 auto;"/>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Mi sitio web | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
