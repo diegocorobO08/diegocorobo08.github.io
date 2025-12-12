@@ -151,7 +151,7 @@ img {
 
 <nav>
   <ul>
-    <li><a href="WEBDIEGO.html">Inicio</a></li>
+    <li><a href="index.html">Inicio</a></li>
     <li><a href="sobremi.html">Sobre mi</a></li>
     <li><a href="contacto.html">Contacto</a></li>
   </ul>
