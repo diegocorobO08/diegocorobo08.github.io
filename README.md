@@ -153,7 +153,7 @@ img {
   <ul>
     <li><a href="WEBDIEGO.html">Inicio</a></li>
     <li><a href="sobremi.html">Sobre mi</a></li>
-    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLAyk5s1GzDz5VygKJtgwWvKMNkJ9L6pIEwkDrheMFQ0naCA/viewform?usp=dialog">Contacto</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
   </ul>
 </nav>
 
