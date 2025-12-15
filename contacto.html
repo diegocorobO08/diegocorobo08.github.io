@@ -1,101 +1,97 @@
 <!DOCTYPE html>
-<html lang="es"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <title>HOBBIES</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>HOBBIES</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-  h1 {
-  text-align: center; }
-  p { text-align: center;}
-  body {
+<style>
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border: 4px solid #7aaeff;
+  margin-bottom: 20px;
+}
+
+body {
   background: #cfe8ff;
   margin: 0;
   padding: 0;
 }
 
+nav {
+  background-color: #4a7ccf;
+}
 
-
-
-
-
-    /* --- MENÚ SUPERIOR --- */
-    nav {
-      background-color: #4a7ccf;
-    }
-
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-        list-style: none;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
   justify-content: center;
-    }
+}
 
-    nav li a {
-      display: block;
-      padding: 14px 20px;
-      color: white;
-      text-decoration: none;
-    }
+nav li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
 
-    nav li a:hover {
-      background-color: #555;
-    }
+nav li a:hover {
+  background-color: #555;
+}
 
-    /* --- TRES COLUMNAS (CORREGIDO) --- */
-    .contenedor {
-      display: flex;               /* Asegura columnas lado a lado */
-      flex-direction: row;         /* Fuerza fila horizontal */
-      padding: 20px;
-      gap: 20px;
-      width: 100%;
-      box-sizing: border-box;
-    }
+form {
+  width: 300px;
+  margin: 30px auto;
+  padding: 15px;
+  border: 2px solid #4a7ccf;
+  background-color: #f2f2f2;
+}
 
-    .columna {
-      flex: 1;
-      background: #f2f2f2;
-      border: 1px solid #ddd;
-      padding: 20px;
-      box-sizing: border-box;
-      min-width: 0;               /* Evita que las columnas salten de línea */
-    }
+form label {
+  display: block;
+  margin-top: 10px;
+}
 
-    /* --- PIE DE PÁGINA --- */
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      margin-top: 20px;
-    }
+form input {
+  width: 100%;
+  box-sizing: border-box;
+}
 
-    /* --- RESPONSIVE: SOLO en pantallas pequeñas --- */
-    @media (max-width: 700px) {
-      .contenedor {
-        flex-direction: column;    /* SOLO en móvil se apilan */
-      }
-    }
-    
-  </style>
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+</style>
 </head>
-<body>
-<h1> HOBBIES </h1>
-<p> Esta es mi primera página web. Me llamo Diego Corobo y estudio 2do de Bachillerato (por desgracia) en el IES Miguel De Cervantes </p> 
-<img src="diego2" alt="galtoui post drogas" style="width:1000px; height: 200px; display: block; margin: 0 auto;"/>
-<!-- MENÚ SUPERIOR -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="sobremi.html">Sobre mi</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
 
-  <!-- TRES COLUMNAS -->
+<body>
+
+<h1>HOBBIES</h1>
+
+<p>Esta es mi primera página web. Me llamo Diego Corobo y estudio 2do de Bachillerato (por desgracia) en el IES Miguel De Cervantes</p>
+
+<img src="diego2" alt="galtoui post drogas" style="width:1000px; height:200px; display:block; margin:0 auto;">
+
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="sobremi.html">Sobre mi</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
 <form action="procesar.php" method="POST">
   <label for="nombre">Nombre:</label>
   <input type="text" id="nombre" name="nombre" required>
@@ -103,15 +99,16 @@
   <label for="email">Correo:</label>
   <input type="email" id="email" name="email" required>
 
-  <label for="Opinión">¿Qué opinas de mi web?:</label>
-  <input type="opinion" id="opinion" name="opinion" required>
+  <label for="opinion">¿Qué opinas de mi web?:</label>
+  <input type="text" id="opinion" name="opinion" required>
 
   <button type="submit">Enviar</button>
 </form>
 
-<!-- MENÚ SUPERIOR -->
+<footer>
+  <p>© 2025 Mi sitio web | Todos los derechos reservados</p>
+</footer>
 
-  <!-- PIE DE PÁGINA -->
-  <footer>
-    <p>© 2025 Mi sitio web | Todos los derechos reservados</p>
-  </footer>
+</body>
+</html>
+
